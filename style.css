@@ -1,5 +1,23 @@
 body {
     text-align: center;
-    background-color: rgb(196, 218, 192);
+    background-color: rgb(191, 248, 181);
 }
 
+button {
+    border: none;
+    padding: 10px 10px;
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button:active {
+    width: 195px;
+    background-color: yellow;
+}
+
+#increment-btn {
+    background-color: darkred;
+}

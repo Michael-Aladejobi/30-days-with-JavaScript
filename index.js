@@ -30,3 +30,5 @@ let checkEveryArrayMethodWithExample = personsArray.every((person) => {
     return person.age >= 30;
 });
 console.log(checkEveryArrayMethodWithExample);
+
+

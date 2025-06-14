@@ -22,11 +22,24 @@ function addContact() {
   };
 
   contacts.push(contact);
+  console.log("Added!");
 }
-function deleteContact() {}
+function deleteContact() {
+  console.log("Contact ID");
+  for (let i = 0; i < contacts.length; i++) {
+    const contact = contacts[i];
+    console.log((i + 1).toString() + ":", contact.name);
+  }
+  const number = parseInt(prompt("Enter an ID: "));
+  if (number >= contacts.length) return;
+
+  contacts.splice(number - 1, 1);
+  console.log("Removed!");
+}
 function searchContact() {}
 function listContact(contact) {
-  for (contact in contacts) {
+  for (let contact of contacts) {
+    console.log("----------------------------------");
     console.log(contact.name);
     console.log(contact.email);
   }

@@ -31,12 +31,22 @@ function deleteContact() {
     console.log((i + 1).toString() + ":", contact.name);
   }
   const number = parseInt(prompt("Enter an ID: "));
-  if (number >= contacts.length) return;
+  if (isNaN(number) || number >= contacts.length) return;
 
   contacts.splice(number - 1, 1);
   console.log("Removed!");
 }
-function searchContact() {}
+function searchContact() {
+  const searchString = prompt("Search: ").toLowerCase();
+  const results = [];
+
+  for (let contact of contacts) {
+    if (contact.name.toLowerCase().includes(searchString)) {
+      results.push(contact);
+      listContact(results);
+    } else console.log("Not FOund");
+  }
+}
 function listContact(contact) {
   for (let contact of contacts) {
     console.log("----------------------------------");
@@ -48,7 +58,7 @@ function listContact(contact) {
 
 const contacts = [];
 let keepGoing = true;
-while (true) {
+while (keepGoing) {
   const number = prompt("Enter an operation (1-5): ");
 
   switch (number) {

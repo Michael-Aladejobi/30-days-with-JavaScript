@@ -9,7 +9,7 @@ if (shouldWePlay.toLowerCase() === "yes") {
   const leftOrRight = prompt(
     "You enter a maze, do you want to go left or right? "
   );
-  if (leftOrRight.toLowerCase === "left") {
+  if (leftOrRight.toLowerCase() === "left") {
     console.log("You go left and see a bridge ...");
 
     const cross = prompt("Do you want to cross the bridge? ");

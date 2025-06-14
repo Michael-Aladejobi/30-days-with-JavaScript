@@ -1,6 +1,5 @@
 const prompt = require("prompt-sync")();
 
-
 function getNumber(numberString) {
   while (true) {
     const number = parseFloat(prompt("Enter number " + numberString + ": "));
@@ -8,13 +7,13 @@ function getNumber(numberString) {
     if (isNaN(number)) {
       console.log("Invalid Input");
     } else {
-      return number
+      return number;
     }
   }
 }
 
-const number1 = getNumber("One")
-const number2 = getNumber("Two")
+const number1 = getNumber("One");
+const number2 = getNumber("Two");
 
 // while (true) {
 //   number1 = parseFloat(prompt("Enter Number 1: "));
@@ -35,28 +34,32 @@ const number2 = getNumber("Two")
 //     }
 
 // }
-// const operator = prompt("Enter Sign: ");
+const operator = prompt("Enter Sign: ");
 
-// let result;
-// switch (operator) {
-//   case "+":
-//     result = number1 + number2;
-//     break;
-//   case "-":
-//     result = number1 - number2;
-//     break;
-//   case "/":
-//     result = number1 / number2;
-//     break;
-//   case "*":
-//     result = number1 * number2;
-//     break;
-//   default:
-//     console.log("Invalid Input");
-//     break;
-// }
+let result;
+switch (operator) {
+  case "+":
+    result = number1 + number2;
+    break;
+  case "-":
+    result = number1 - number2;
+    break;
+  case "/":
+    if (number2 === 0) {
+      console.log("Zero Division Error!");
+    }
+    result = number1 / number2;
 
-// console.log(number1, operator, number2, "=", result);
+    break;
+  case "*":
+    result = number1 * number2;
+    break;
+  default:
+    console.log("Invalid Input");
+    break;
+}
+
+console.log(number1, operator, number2, "=", result);
 
 // // let i = 0;
 // // while (i < 10) {

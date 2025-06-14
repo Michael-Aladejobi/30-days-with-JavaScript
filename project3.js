@@ -12,15 +12,32 @@ function printInfo() {
 
 printInfo();
 
-function addContact() {}
+function addContact() {
+  const name = prompt("Name: ");
+  const email = prompt("Email: ");
+
+  const contact = {
+    name: name,
+    email: email,
+  };
+
+  contacts.push(contact);
+}
 function deleteContact() {}
 function searchContact() {}
-function listContact(contact) {}
+function listContact(contact) {
+  for (contact in contacts) {
+    console.log(contact.name);
+    console.log(contact.email);
+  }
+  console.log(contacts);
+}
 
-const number = prompt("Enter an operation (1-5): ");
-
+const contacts = [];
 let keepGoing = true;
 while (true) {
+  const number = prompt("Enter an operation (1-5): ");
+
   switch (number) {
     case "1":
       addContact();
@@ -31,7 +48,7 @@ while (true) {
       break;
 
     case "3":
-      listContact(); //parse contact
+      listContact(contacts); //parse contact
       break;
 
     case "4":

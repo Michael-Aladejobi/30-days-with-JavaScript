@@ -83,7 +83,7 @@ while (keepGoing) {
       break;
 
     default:
-      console.log("unknown");
+      console.log("unknown...");
       break;
   }
 }

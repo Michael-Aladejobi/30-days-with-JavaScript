@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "What gas do plants absorb from the atmosphere?",
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"],
+      "answer": "Carbon Dioxide"
+    },
+    {
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "options": ["William Wordsworth", "William Shakespeare", "John Milton", "Jane Austen"],
+      "answer": "William Shakespeare"
+    },
+    {
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": ["Oxygen", "Osmium", "Gold", "Iron"],
+      "answer": "Oxygen"
+    },
+    {
+      "question": "How many continents are there on Earth?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "question": "What is the capital city of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Rome"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Which ocean is the largest?",
+      "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+      "answer": "Pacific"
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Diamond", "Iron", "Quartz"],
+      "answer": "Diamond"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Venus", "Saturn", "Mercury"],
+      "answer": "Mars"
+    },
+    {
+      "question": "Who was the first man to walk on the moon?",
+      "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+      "answer": "Neil Armstrong"
+    },
+    {
+      "question": "What is the boiling point of water at sea level in Celsius?",
+      "options": ["90°C", "95°C", "100°C", "105°C"],
+      "answer": "100°C"
+    },
+    {
+      "question": "What is the largest mammal on Earth?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "answer": "Blue Whale"
+    },
+    {
+      "question": "How many sides does a hexagon have?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "6"
+    },
+    {
+      "question": "In which country is the Great Pyramid of Giza located?",
+      "options": ["Mexico", "Greece", "Egypt", "India"],
+      "answer": "Egypt"
+    },
+    {
+      "question": "What is the chemical formula for water?",
+      "options": ["H2O", "CO2", "NaCl", "O2"],
+      "answer": "H2O"
+    },
+    {
+      "question": "Which language has the most native speakers worldwide?",
+      "options": ["English", "Hindi", "Spanish", "Mandarin Chinese"],
+      "answer": "Mandarin Chinese"
+    },
+    {
+      "question": "How many legs does a spider have?",
+      "options": ["6", "8", "10", "12"],
+      "answer": "8"
+    },
+    {
+      "question": "What is the tallest mountain in the world?",
+      "options": ["Mount Kilimanjaro", "K2", "Mount Everest", "Mont Blanc"],
+      "answer": "Mount Everest"
+    },
+    {
+      "question": "Which planet has the most moons?",
+      "options": ["Mars", "Jupiter", "Saturn", "Uranus"],
+      "answer": "Saturn"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Pablo Picasso", "Leonardo da Vinci", "Vincent van Gogh", "Michelangelo"],
+      "answer": "Leonardo da Vinci"
+    }
+  ]
+}
